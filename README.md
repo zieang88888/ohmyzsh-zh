@@ -5,6 +5,7 @@
 # Oh My Zsh 中文版
 
 > **全球最流行的 Zsh 配置增强框架 · 中文生态导航**
+>
 > 源自 GitHub 上 **190,000+ ★** 的 [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)，收录 **370 个内置插件 + 143 个内置主题**的完整生态索引，安装、配置、换肤、插件全家桶一键直达，让你的终端从「能用」变成「好用」。
 
 ![Stars](https://img.shields.io/badge/GitHub%20Stars-190%2C161-B23A2E?style=flat-square)
@@ -13,6 +14,8 @@
 ![License](https://img.shields.io/badge/License-MIT-B23A2E?style=flat-square)
 
 ---
+
+⭐ 如果对你有帮助，点个 Star 支持中文开源
 
 ## 目录
 
@@ -37,6 +40,7 @@
 源项目由 Robby Russell 创建于 **2009 年**，提供一套开箱即用的 Zsh 配置框架：**数百个插件**（git 快捷命令、Docker、Kubernetes、npm 全家桶……）、**150+ 主题**（纯字符渲染、无需额外字体），配合自动更新、社区 wiki 与 30 万+ 贡献者生态，是全球终端用户装机量最大的 Shell 增强方案。
 
 **中文版做了什么：**
+
 - 🗂️ 把源仓 **370 个插件 + 143 个主题** 全量提取为中文索引（[plugins-index.md](plugins-index.md)），按字母序排列，插件名即目录名、点开直达源仓；
 - ⚡ 在本 README 精选 **24 个高频插件 + 12 个热门主题**，配中文译名 + 一句话功能说明；
 - 📖 提炼「三步上手」安装配置指引与 FAQ，让你从零开始把终端武装到牙齿。
@@ -136,18 +140,23 @@
 ## 常见问题 FAQ
 
 **Q1：我没有 Zsh，能装吗？**
+
 先装 Zsh（`zsh --version` 确认，版本建议 5.0.8+），再执行安装命令；Windows 用户请用 WSL2。
 
 **Q2：插件怎么启用？**
+
 编辑 `~/.zshrc`，在 `plugins=(...)` 里加上插件名（空格分隔，**不要用逗号**），保存后重开终端即可。每个内置插件都带 README 说明。
 
 **Q3：主题需要装字体吗？**
+
 多数主题不需要；但 agnoster 等花哨主题建议安装 Powerline 或 Nerd Font，否则符号会显示异常。
 
 **Q4：装了 Oh My Zsh 会覆盖我的配置吗？**
+
 安装脚本会把原 `~/.zshrc` 重命名为 `.zshrc.pre-oh-my-zsh` 备份，自定义内容可在新 `.zshrc` 里迁移。
 
 **Q5：这个中文版和源项目是什么关系？**
+
 本项目是中文**生态索引与导读**，框架、插件、主题都在源项目。插件/主题名即源仓目录名，实际使用请安装源项目。
 
 ## 参与贡献
@@ -167,3 +176,15 @@
 - 本仓库代码与文档：**MIT License**（见 [LICENSE](LICENSE)，Copyright (c) 2026 zieang88888）；
 - 源项目 [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)：**MIT License**（Copyright (c) 2009-2022 Robby Russell and contributors）；
 - 第三方声明与完整署名见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+## 姊妹项目
+
+中文开源矩阵，一网打尽开发者的知识库：
+
+- [zhskills · 中文技能库](https://github.com/zieang88888/zhskills)
+- [awesome-ai-tools-zh · AI 工具导航](https://github.com/zieang88888/awesome-ai-tools-zh)
+- [free-programming-books-zh · 编程书籍大全](https://github.com/zieang88888/free-programming-books-zh)
+- [system-design-zh · 系统设计面试](https://github.com/zieang88888/system-design-zh)
+- [awesome-python-zh · Python 生态导航](https://github.com/zieang88888/awesome-python-zh)
+- [llm-course-zh · LLM 课程导航](https://github.com/zieang88888/llm-course-zh)
+- [design-resources-for-developers-zh · 设计资源大全](https://github.com/zieang88888/design-resources-for-developers-zh)
