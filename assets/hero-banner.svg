@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Noto Sans CJK SC, sans-serif">
+  <rect width="960" height="260" fill="#FAF6EF"/>
+  <rect x="0" y="0" width="960" height="8" fill="#B23A2E"/>
+  <text x="480" y="92" font-size="46" font-weight="bold" fill="#1F1B16" text-anchor="middle">Oh My Zsh · 中文版</text>
+  <text x="480" y="140" font-size="20" fill="#1F1B16" text-anchor="middle">终端 Shell 增强生态导航 · 370 插件 + 143 主题一键直达</text>
+  <g font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    <rect x="110" y="176" width="170" height="48" rx="24" fill="#B23A2E"/><text x="195" y="206">★ 190,161</text>
+    <rect x="300" y="176" width="170" height="48" rx="24" fill="#B23A2E"/><text x="385" y="206">370 插件</text>
+    <rect x="490" y="176" width="170" height="48" rx="24" fill="#B23A2E"/><text x="575" y="206">143 主题</text>
+    <rect x="680" y="176" width="170" height="48" rx="24" fill="#B23A2E"/><text x="765" y="206">MIT 开源</text>
+  </g>
+</svg>
